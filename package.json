@@ -1,0 +1,11 @@
+{
+  "name": "node-test-debuggers",
+  "version": "0.0.1",
+  "description": "easy to use test cases for node debuggers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Kime",
+  "license": "ISC"
+}
