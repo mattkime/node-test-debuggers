@@ -9,7 +9,8 @@
     "debug": "node debug index.js",
     "node-inspector": "node-debug index.js",
     "devtool": "devtool index.js",
-    "iron-node":"iron-node index.js"
+    "iron-node":"iron-node index.js",
+    "vscode": "open -a \"Visual Studio Code\" ."
   },
   "author": "Matt Kime",
   "license": "ISC"
