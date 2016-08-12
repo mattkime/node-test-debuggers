@@ -10,7 +10,8 @@
     "node-inspector": "node-debug index.js",
     "devtool": "devtool index.js",
     "iron-node":"iron-node index.js",
-    "vscode": "open -a \"Visual Studio Code\" ."
+    "vscode": "open -a \"Visual Studio Code\" .",
+    "webstorm": "open -a \"WebStorm\" ."
   },
   "author": "Matt Kime",
   "license": "ISC"
