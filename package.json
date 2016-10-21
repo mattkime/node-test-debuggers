@@ -4,15 +4,21 @@
   "description": "easy to use test cases for node debuggers",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
     "debug": "node debug index.js",
+    "chrome": "node --inspect --debug-brk index.js",
+    "chrome:webpack": "node --inspect --debug-brk build/backend.js",
     "node-inspector": "node-debug index.js",
     "devtool": "devtool index.js",
-    "iron-node":"iron-node index.js",
+    "iron-node": "iron-node index.js",
     "vscode": "open -a \"Visual Studio Code\" .",
     "webstorm": "open -a \"WebStorm\" ."
   },
   "author": "Matt Kime",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^1.13.2"
+  }
 }
